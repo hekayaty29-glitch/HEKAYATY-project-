@@ -25,7 +25,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: path.resolve(import.meta.dirname, "client", "dist"),
+    outDir: "dist",
     emptyOutDir: true,
   },
 });
